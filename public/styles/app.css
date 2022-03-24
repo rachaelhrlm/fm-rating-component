@@ -355,11 +355,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[360px\]{
   height: 360px;
 }
+.h-\[24px\]{
+  height: 24px;
+}
+.h-\[42px\]{
+  height: 42px;
+}
 .w-screen{
   width: 100vw;
 }
 .w-\[327px\]{
   width: 327px;
+}
+.w-\[24px\]{
+  width: 24px;
+}
+.w-\[42px\]{
+  width: 42px;
+}
+.cursor-pointer{
+  cursor: pointer;
 }
 .place-content-center{
   place-content: center;
@@ -367,12 +382,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 .place-items-center{
   place-items: center;
 }
+.justify-between{
+  justify-content: space-between;
+}
 .rounded-2xl{
   border-radius: 1rem;
+}
+.rounded-full{
+  border-radius: 9999px;
 }
 .bg-dark-blue-600{
   --tw-bg-opacity: 1;
   background-color: rgb(19 21 24 / var(--tw-bg-opacity));
+}
+.bg-dark-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 46 56 / var(--tw-bg-opacity));
+}
+.bg-gray-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -386,6 +415,25 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .p-\[24px\]{
   padding: 24px;
+}
+.py-\[5px\]{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.py-\[10px\]{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.py-\[15px\]{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.py-\[20px\]{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.align-middle{
+  vertical-align: middle;
 }
 .font-sans{
   font-family: Overpass, sans-serif;
@@ -405,6 +453,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .leading-loose{
   line-height: 2;
 }
+.leading-none{
+  line-height: 1;
+}
+.leading-\[0px\]{
+  line-height: 0px;
+}
+.leading-\[0\]{
+  line-height: 0;
+}
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -412,4 +469,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-grey-500{
   --tw-text-opacity: 1;
   color: rgb(150 159 173 / var(--tw-text-opacity));
+}
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+.transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-200{
+  transition-duration: 200ms;
+}
+.duration-300{
+  transition-duration: 300ms;
+}
+.hover\:bg-orange-500:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 118 20 / var(--tw-bg-opacity));
+}
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
