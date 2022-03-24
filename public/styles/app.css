@@ -387,3 +387,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-\[24px\]{
   padding: 24px;
 }
+.font-sans{
+  font-family: Overpass, sans-serif;
+}
+.text-\[24px\]{
+  font-size: 24px;
+}
+.font-bold{
+  font-weight: 700;
+}
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
