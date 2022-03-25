@@ -346,32 +346,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.mb-\[15px\]{
+  margin-bottom: 15px;
+}
 .flex{
   display: flex;
-}
-.h-screen{
-  height: 100vh;
 }
 .h-\[360px\]{
   height: 360px;
 }
-.h-\[24px\]{
-  height: 24px;
-}
 .h-\[42px\]{
   height: 42px;
 }
-.w-screen{
-  width: 100vw;
+.h-screen{
+  height: 100vh;
 }
 .w-\[327px\]{
   width: 327px;
 }
-.w-\[24px\]{
-  width: 24px;
-}
 .w-\[42px\]{
   width: 42px;
+}
+.w-screen{
+  width: 100vw;
 }
 .cursor-pointer{
   cursor: pointer;
@@ -391,17 +388,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded-full{
   border-radius: 9999px;
 }
-.bg-dark-blue-600{
+.bg-gray-600{
   --tw-bg-opacity: 1;
-  background-color: rgb(19 21 24 / var(--tw-bg-opacity));
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 .bg-dark-blue-500{
   --tw-bg-opacity: 1;
   background-color: rgb(38 46 56 / var(--tw-bg-opacity));
 }
-.bg-gray-600{
+.bg-dark-blue-600{
   --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  background-color: rgb(19 21 24 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -416,36 +413,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-\[24px\]{
   padding: 24px;
 }
-.py-\[5px\]{
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.py-\[10px\]{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 .py-\[15px\]{
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.py-\[20px\]{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.align-middle{
-  vertical-align: middle;
+.text-center{
+  text-align: center;
 }
 .font-sans{
   font-family: Overpass, sans-serif;
 }
-.text-\[24px\]{
-  font-size: 24px;
-}
 .text-\[14px\]{
   font-size: 14px;
 }
+.text-\[24px\]{
+  font-size: 24px;
+}
 .font-bold{
   font-weight: 700;
+}
+.leading-\[0\]{
+  line-height: 0;
 }
 .leading-relaxed{
   line-height: 1.625;
@@ -453,14 +441,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .leading-loose{
   line-height: 2;
 }
-.leading-none{
-  line-height: 1;
-}
-.leading-\[0px\]{
-  line-height: 0px;
-}
-.leading-\[0\]{
-  line-height: 0;
+.leading-\[42px\]{
+  line-height: 42px;
 }
 .text-white{
   --tw-text-opacity: 1;
@@ -470,17 +452,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(150 159 173 / var(--tw-text-opacity));
 }
-.text-gray-600{
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
 .transition-all{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-.duration-200{
-  transition-duration: 200ms;
 }
 .duration-300{
   transition-duration: 300ms;
