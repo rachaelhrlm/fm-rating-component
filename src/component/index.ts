@@ -1,3 +1,4 @@
+export * from './button';
 export * from './card';
 export * from './ratingButton';
 export * from './starIcon';
