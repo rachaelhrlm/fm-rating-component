@@ -10,7 +10,11 @@ export const Home: FunctionComponent = () => {
             {hasSubmitted ? (
                 <ThankYouCard rating={rating} />
             ) : (
-                <RatingCard rating={rating} onRatingClick={(value: number) => setRating(value)} onSubmit={() => setHasSubmitted(true)} />
+                <RatingCard
+                    rating={rating}
+                    onRatingClick={(value: number) => setRating(value)}
+                    onSubmit={() => rating && setHasSubmitted(true)}
+                />
             )}
         </main>
     );
