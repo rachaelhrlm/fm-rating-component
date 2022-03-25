@@ -400,6 +400,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between{
   justify-content: space-between;
 }
+.justify-items-center{
+  justify-items: center;
+}
 .rounded-full{
   border-radius: 9999px;
 }
@@ -439,6 +442,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.py-\[30px\]{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.px-\[20px\]{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.py-\[5px\]{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.px-\[12px\]{
+  padding-left: 12px;
+  padding-right: 12px;
+}
 .text-center{
   text-align: center;
 }
@@ -451,17 +470,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[24px\]{
   font-size: 24px;
 }
+.text-\[15px\]{
+  font-size: 15px;
+}
 .font-bold{
   font-weight: 700;
 }
 .uppercase{
   text-transform: uppercase;
 }
-.leading-\[42px\]{
-  line-height: 42px;
-}
 .leading-\[0\]{
   line-height: 0;
+}
+.leading-\[0px\]{
+  line-height: 0px;
+}
+.leading-\[22px\]{
+  line-height: 22px;
 }
 .tracking-\[2px\]{
   letter-spacing: 2px;
@@ -473,6 +498,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-grey-500{
   --tw-text-opacity: 1;
   color: rgb(150 159 173 / var(--tw-text-opacity));
+}
+.text-orange-500{
+  --tw-text-opacity: 1;
+  color: rgb(252 118 20 / var(--tw-text-opacity));
 }
 .transition-all{
   transition-property: all;
@@ -497,4 +526,69 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+@media (min-width: 1280px){
+  .xl\:h-\[416px\]{
+    height: 416px;
+  }
+  .xl\:w-\[412px\]{
+    width: 412px;
+  }
+}
+@media (min-width: 1440px){
+  .\32xl\:mb-\[10px\]{
+    margin-bottom: 10px;
+  }
+  .\32xl\:mb-\[20px\]{
+    margin-bottom: 20px;
+  }
+  .\32xl\:h-\[416px\]{
+    height: 416px;
+  }
+  .\32xl\:h-\[51px\]{
+    height: 51px;
+  }
+  .\32xl\:w-\[412px\]{
+    width: 412px;
+  }
+  .\32xl\:w-\[51px\]{
+    width: 51px;
+  }
+  .\32xl\:p-\[30px\]{
+    padding: 30px;
+  }
+  .\32xl\:p-\[20px\]{
+    padding: 20px;
+  }
+  .\32xl\:p-\[40px\]{
+    padding: 40px;
+  }
+  .\32xl\:p-\[36px\]{
+    padding: 36px;
+  }
+  .\32xl\:py-\[5px\]{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .\32xl\:py-\[0px\]{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .\32xl\:px-\[20px\]{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .\32xl\:py-\[4px\]{
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .\32xl\:text-\[28px\]{
+    font-size: 28px;
+  }
+  .\32xl\:text-\[15px\]{
+    font-size: 15px;
+  }
+  .\32xl\:leading-\[24px\]{
+    line-height: 24px;
+  }
 }
